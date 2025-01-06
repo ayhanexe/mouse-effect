@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "module": "ES6",
+    "target": "ES6",
+    "moduleResolution": "node",
+    "allowJs": true,
+    "baseUrl": "./",
+    "paths": {
+      "@root/*": ["./src/*"],
+      "@core/*": ["./src/core/*"],
+      "@helpers/*": ["./src/helpers/*"],
+      "@styles/*": ["./src/styles/*"],
+    }
+  },
+  "files": ["src/index.ts"]
+}
