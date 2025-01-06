@@ -34,8 +34,9 @@ You can provide options inside `init()` method.
     });
 
 #Options API
+
 | Key |  Type | Description
-| ------------ | ------------ |
+| ------------ | ------------ | ------------ |
 | toCollide  |  HTMLElement[] | Array of DOM elements for interact with cursor
 | innerDot  | Object  | To customize inner dot of cursor effect
 | innerDot.width  | number  | For change inner cursor width
@@ -50,4 +51,3 @@ You can provide options inside `init()` method.
 | outerDot.enabled  | boolean | To enable or disable outer dot.
 | rootToAppend  | HTMLElement | For specify effect root element's append target.
 | rootID  | string | For change effect's root element `id` attribute.
-
