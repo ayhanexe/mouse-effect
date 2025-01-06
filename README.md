@@ -33,7 +33,7 @@ You can provide options inside `init()` method.
       },
     });
 
-#Options API
+# Options API
 
 | Key |  Type | Description
 | ------------ | ------------ | ------------ |
